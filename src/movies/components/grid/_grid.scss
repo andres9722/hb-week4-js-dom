@@ -7,12 +7,20 @@
       align-items: center;
       width: 100%;
 
+      @include from($small) {
+        max-width: $max-width;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+      }
+
       @include from($medium) {
         max-width: $max-width;
         margin: 0 auto;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        grid-gap: 20px;
+        grid-gap: 10px;
       }
   
       @include from($large) {
@@ -20,7 +28,7 @@
         margin: 0 auto;
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        grid-gap: 20px;
+        grid-gap: 10px;
       }
     }
   }

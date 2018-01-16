@@ -8,6 +8,7 @@ export class Movies {
           <p class="movies-item__category"> <b> Category: </b> ${data.category}</p>
           <p class="movies-item__year"> <b> Year: </b> ${data.year}</p>
           <p class="movies-item__stars"> <b>Stars: </b>${data.starts}</p>
+          <img class="movies-item__camera" src="https://image.flaticon.com/icons/svg/3/3901.svg">
         </div>
     `
   }

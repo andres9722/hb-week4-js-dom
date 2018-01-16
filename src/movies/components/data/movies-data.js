@@ -62,5 +62,21 @@ export default [
     starts: 'Guy Pearce, Carrie-Anne Moss, Joe Pantoliano',
     category: 'Thriller',
     image: 'https://images-na.ssl-images-amazon.com/images/M/MV5BZTcyNjk1MjgtOWI3Mi00YzQwLWI5MTktMzY4ZmI2NDAyNzYzXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UY268_CR0,0,182,268_AL_.jpg'
+  },
+  {
+    title: 'Dunkirk',
+    director: 'Christopher Nolan',
+    year: '2017',
+    starts: 'Fionn Whitehead, Barry Keoghan, Mark Rylance',
+    category: 'Action',
+    image: 'https://images-na.ssl-images-amazon.com/images/M/MV5BN2YyZjQ0NTEtNzU5MS00NGZkLTg0MTEtYzJmMWY3MWRhZjM2XkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_SY1000_CR0,0,674,1000_AL_.jpg'
+  },
+  {
+    title: 'The Dark Knight',
+    director: 'Christopher Nolan',
+    year: '2008',
+    starts: ' Christian Bale, Heath Ledger, Aaron Eckhart',
+    category: 'Action',
+    image: 'https://images-na.ssl-images-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SY1000_CR0,0,675,1000_AL_.jpg'
   }
 ]

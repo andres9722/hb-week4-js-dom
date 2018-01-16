@@ -11,7 +11,7 @@ export class filterMovies {
       const clicked = e.target
       if (clicked.classList.contains('main-header__button--reset')) {
         this.buttonReset()
-        return null
+        return false
       }
 
       if (clicked.classList.contains('main-header__button')) {
