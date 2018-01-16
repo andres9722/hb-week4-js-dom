@@ -11,7 +11,7 @@ export class Grid {
   }
 
   setTemplateMovies () {
-    let moviesItem = `
+    const moviesItem = `
             <ul class="movies-container__list"></ul>
           `
     this.node.innerHTML = moviesItem
@@ -19,8 +19,8 @@ export class Grid {
 
   setMovies (movies) {
     const temporalNode = document.createDocumentFragment()
-    movies.map(movie => {
-      let movies = document.createElement('li')
+    movies.forEach(movie => {
+      const movies = document.createElement('li')
       movies.innerHTML = movie.data
       movies.classList.add('movies-item')
       temporalNode.appendChild(movies)
@@ -30,10 +30,10 @@ export class Grid {
   }
 
   setClass () {
-    let elements = document.querySelectorAll('.movies-item__title')
+    const elements = document.querySelectorAll('.movies-item__title')
     elements.forEach(el => {
-      let classes = el.getAttribute('data-genre')
-      el.parentElement.classList.add(`movies-item--${classes}`)
+      const classes = el.getAttribute('data-genre')
+      el.parentElement.parentElement.classList.add(`movies-item--${classes}`)
     })
   }
 
@@ -56,14 +56,14 @@ export class Grid {
   eventTarget () {
     this.list.forEach(element => {
       element.addEventListener('click', e => {
-        let target = e.target
+        const target = e.target
         if (target.classList.contains('movies-item')) {
-          let i = Array.from(this.list).indexOf(target)
+          const i = Array.from(this.list).indexOf(target)
           if (i !== this.i) {
             this.list[this.i].classList.remove('movies-item--active')
           }
           this.i = i
-          this.list[i].classList.add('movies-item--active')
+          this.list[i].classList.toggle('movies-item--active')
         }
       })
     })

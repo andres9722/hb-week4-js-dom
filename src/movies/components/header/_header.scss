@@ -8,6 +8,7 @@
 
     &__categories {
       display: flex;
+      flex-wrap: wrap;
     }
   
     &__container {
@@ -29,11 +30,21 @@
       border: 1.5px solid darken($principal-color, 10);
       background: $principal-color;
       color: $white;
-      font-size: 1.1em;
+      font-size: 1em;
       font-family: $font-text;
-      margin-left: 1em;
+      margin-left: .5em;
       cursor: pointer;
       border-radius: 5px;
       text-transform: capitalize;
+
+      @include from($medium) {
+        font-size: 1.1em;
+        margin-left: 1em;
+
+        &:hover {
+          background: darken(white, 10);
+          color: darken($principal-color, 10);
+        }
+      }
     }
   }

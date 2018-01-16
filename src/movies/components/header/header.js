@@ -7,7 +7,7 @@ export class Header {
   }
 
   setTemplateheader () {
-    let headerCont = `
+    const headerCont = `
       <div class="main-header__container">
         <h1 class="main-header__title">MOVIES</h1>
         <div class="main-header__categories">
@@ -20,7 +20,7 @@ export class Header {
   }
 
   setDataHeader (data) {
-    let categories = []
+    const categories = []
     data.forEach(movie => {
       if (categories.indexOf(movie.category) < 0) {
         categories.push(movie.category)
@@ -29,8 +29,8 @@ export class Header {
 
     const temporalNode = document.createDocumentFragment()
     categories.forEach(category => {
-      let moviesCategories = document.createElement('div')
-      let moviesContent = `
+      const moviesCategories = document.createElement('div')
+      const moviesContent = `
         <button class="main-header__button main-header__button--${category.toLowerCase()}">${category.toLowerCase()}</button>
         `
       moviesCategories.classList.add('main-header__category')
