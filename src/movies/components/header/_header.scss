@@ -1,0 +1,39 @@
+.main-header {
+    background: $principal-color;
+    color: white;
+    padding: 0 0.5em;
+    margin-bottom: 2em;
+    width: 100%;
+    box-shadow: 0 3px 2px $border-color;
+
+    &__categories {
+      display: flex;
+    }
+  
+    &__container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      @include from($large) {
+        max-width: $max-width;
+        margin: 0 auto;
+      }
+    }
+  
+    &__title {
+      text-transform: uppercase;
+      text-shadow: 0 3px 0 darken($principal-color, 10);
+    }
+  
+    &__button {
+      border: 1.5px solid darken($principal-color, 10);
+      background: $principal-color;
+      color: $white;
+      font-size: 1.1em;
+      font-family: $font-text;
+      margin-left: 1em;
+      cursor: pointer;
+      border-radius: 5px;
+      text-transform: capitalize;
+    }
+  }

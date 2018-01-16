@@ -1,0 +1,67 @@
+.movies-item {
+  width: 100%;
+  margin-bottom: 2em;
+  text-align: center;
+  padding: 0.5em 0.3em;
+  border: .4px solid $border-color;
+  box-shadow: 0 2px 2px $border-color;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 5px;
+
+  @include from($large) {
+    margin: 0;
+  }
+
+  &__info {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: $principal-color;
+    transition: transform .3s ease;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+  }
+
+  &.hidden {
+    display: none;
+  }
+
+  &--active {
+    .movies-item__info {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      transform: rotateY(0);
+      transform-style: preserve-3d;
+      perspective: 100;
+    }
+  }
+
+  &__title {
+    color: $secondary-color;
+    text-shadow: 0 1px 0 darken($secondary-color, 10);
+  }
+
+  &__image {
+    margin: 0.5em auto;
+    width: 130px;
+    height: 160px;
+    position: relative;
+    z-index: -5;
+  }
+
+  &__stars {
+    font-size: 0.9em;
+  }
+}
