@@ -1,10 +1,8 @@
 .main-header {
-    background: $principal-color;
+    background: $black;
     color: white;
-    padding: 0 0.5em;
-    margin-bottom: 2em;
+    padding: .5em 1em;
     width: 100%;
-    box-shadow: 0 3px 2px $border-color;
 
     &__categories {
       display: flex;
@@ -23,14 +21,17 @@
   
     &__title {
       text-transform: uppercase;
-      text-shadow: 0 3px 0 darken($principal-color, 10);
+      text-shadow: 0 2px 0 darken($principal-color, 10);
+      font-size: 2.2em;
+      letter-spacing: 2px;
+      font-family: $font-header;
     }
   
     &__button {
       border: 1.5px solid darken($principal-color, 10);
       background: $principal-color;
       color: $white;
-      font-size: 1em;
+      font-size: 1.2em;
       font-family: $font-text;
       margin-left: .5em;
       cursor: pointer;
@@ -40,6 +41,7 @@
       @include from($medium) {
         font-size: 1.1em;
         margin-left: 1em;
+        transition: color .3s ease;
 
         &:hover {
           background: darken(white, 10);

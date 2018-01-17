@@ -1,9 +1,12 @@
 export class Header {
-  constructor (selector, data) {
+  constructor (selector, buttonHandler, resetHandler, data) {
     this.node = document.querySelector(selector)
     this.setTemplateheader()
     this.categories = document.querySelector('.main-header__categories')
     this.setDataHeader(data)
+    this.buttonHandler = buttonHandler
+    this.resetHandler = resetHandler
+    this.events()
   }
 
   setTemplateheader () {
@@ -39,5 +42,19 @@ export class Header {
     })
 
     this.categories.appendChild(temporalNode)
+  }
+
+  events () {
+    this.node.addEventListener('click', e => {
+      const clicked = e.target
+      if (clicked.classList.contains('main-header__button--reset')) {
+        this.resetHandler()
+        return false
+      }
+
+      if (clicked.classList.contains('main-header__button')) {
+        this.buttonHandler(clicked.textContent)
+      }
+    })
   }
 }

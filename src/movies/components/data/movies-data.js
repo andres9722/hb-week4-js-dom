@@ -5,7 +5,7 @@ export default [
     year: '1972',
     starts: 'Marlon Brando, Al Pacino, James Caan',
     category: 'Drama',
-    image: 'https://images-na.ssl-images-amazon.com/images/M/MV5BY2Q2NzQ3ZDUtNWU5OC00Yjc0LThlYmEtNWM3NTFmM2JiY2VhXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UY268_CR3,0,182,268_AL_.jpg'
+    image: 'http://4.bp.blogspot.com/-YcxtixbaloA/ViudhaEmCCI/AAAAAAAAA_4/rQ_iGsI8gUg/s1600/15.jpg'
   },
   {
     title: 'Fargo ',
@@ -13,7 +13,7 @@ export default [
     year: '1996',
     starts: 'William H. Macy, Frances McDormand, Steve Buscemi',
     category: 'Thriller',
-    image: 'https://images-na.ssl-images-amazon.com/images/M/MV5BNDJiZDgyZjctYmRjMS00ZjdkLTkwMTEtNGU1NDg3NDQ0Yzk1XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX182_CR0,0,182,268_AL_.jpg'
+    image: 'http://www.mubis.es/media/covers/1868/3267/fargo-portada-l_cover.jpg'
   },
   {
     title: "Schindler's List",
@@ -21,7 +21,7 @@ export default [
     year: '1993',
     starts: 'Liam Neeson, Ralph Fiennes, Ben Kingsley',
     category: 'Drama',
-    image: 'https://images-na.ssl-images-amazon.com/images/M/MV5BNDE4OTMxMTctNmRhYy00NWE2LTg3YzItYTk3M2UwOTU5Njg4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX182_CR0,0,182,268_AL_.jpg'
+    image: 'https://psy317wongchanfai.files.wordpress.com/2012/04/schindlers-list.jpg'
   },
   {
     title: 'Reservoir Dogs',
@@ -29,7 +29,7 @@ export default [
     year: '1992',
     starts: 'Harvey Keitel, Tim Roth, Michael Madsen',
     category: 'Thriller',
-    image: 'https://images-na.ssl-images-amazon.com/images/M/MV5BZmExNmEwYWItYmQzOS00YjA5LTk2MjktZjEyZDE1Y2QxNjA1XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX182_CR0,0,182,268_AL_.jpg'
+    image: 'http://4.bp.blogspot.com/-1rXQmnfzrKI/VRRtocgSd1I/AAAAAAAAAK4/7dLdXKpnnxk/s1600/Reservoir%2BDogs.jpg'
   },
   {
     title: 'Fight Club',
@@ -37,7 +37,7 @@ export default [
     year: '1999',
     starts: 'Brad Pitt, Edward Norton, Meat Loaf',
     category: 'Drama',
-    image: 'https://images-na.ssl-images-amazon.com/images/M/MV5BMzFjMWNhYzQtYTIxNC00ZWQ1LThiOTItNWQyZmMxNDYyMjA5XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX182_CR0,0,182,268_AL_.jpg'
+    image: 'http://indicefriki.com/wp-content/uploads/2014/06/el-club-de-la-lucha-portada.jpg'
   },
   {
     title: 'Split',
@@ -45,7 +45,7 @@ export default [
     year: '2016',
     starts: 'James McAvoy, Anya Taylor-Joy, Haley Lu Richardson',
     category: 'Thriller',
-    image: 'https://images-na.ssl-images-amazon.com/images/M/MV5BZTJiNGM2NjItNDRiYy00ZjY0LTgwNTItZDBmZGRlODQ4YThkL2ltYWdlXkEyXkFqcGdeQXVyMjY5ODI4NDk@._V1_UX182_CR0,0,182,268_AL_.jpg'
+    image: 'http://www.somoscine.com/wp-content/uploads/fragmentado-split.jpg'
   },
   {
     title: 'Se7en',
@@ -53,7 +53,7 @@ export default [
     year: '1995',
     starts: 'Morgan Freeman, Brad Pitt, Kevin Spacey',
     category: 'Drama',
-    image: 'https://images-na.ssl-images-amazon.com/images/M/MV5BOTUwODM5MTctZjczMi00OTk4LTg3NWUtNmVhMTAzNTNjYjcyXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX182_CR0,0,182,268_AL_.jpg'
+    image: 'https://lasnochesdecine.files.wordpress.com/2013/03/portada-seven.jpg'
   },
   {
     title: 'Memento',
@@ -61,7 +61,7 @@ export default [
     year: '2000',
     starts: 'Guy Pearce, Carrie-Anne Moss, Joe Pantoliano',
     category: 'Thriller',
-    image: 'https://images-na.ssl-images-amazon.com/images/M/MV5BZTcyNjk1MjgtOWI3Mi00YzQwLWI5MTktMzY4ZmI2NDAyNzYzXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UY268_CR0,0,182,268_AL_.jpg'
+    image: 'http://www.mubis.es/media/covers/1945/3572/memento-portada-l_cover.jpg'
   },
   {
     title: 'Dunkirk',
@@ -69,7 +69,7 @@ export default [
     year: '2017',
     starts: 'Fionn Whitehead, Barry Keoghan, Mark Rylance',
     category: 'Action',
-    image: 'https://images-na.ssl-images-amazon.com/images/M/MV5BN2YyZjQ0NTEtNzU5MS00NGZkLTg0MTEtYzJmMWY3MWRhZjM2XkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_SY1000_CR0,0,674,1000_AL_.jpg'
+    image: 'http://www.elmulticine.com/imagenes/carteles/6/dunkerque-cartel-b.jpg'
   },
   {
     title: 'The Dark Knight',
@@ -77,6 +77,6 @@ export default [
     year: '2008',
     starts: ' Christian Bale, Heath Ledger, Aaron Eckhart',
     category: 'Action',
-    image: 'https://images-na.ssl-images-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SY1000_CR0,0,675,1000_AL_.jpg'
+    image: 'http://es.web.img2.acsta.net/medias/nmedia/18/66/74/01/20350623.jpg'
   }
 ]
