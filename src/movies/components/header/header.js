@@ -1,10 +1,10 @@
 export class Header {
-  constructor (selector, buttonHandler, resetHandler, data) {
+  constructor (selector, filterHandler, resetHandler, data) {
     this.node = document.querySelector(selector)
     this.setTemplateheader()
-    this.categories = document.querySelector('.main-header__categories')
+    this.categories = this.node.querySelector('.main-header__categories')
     this.setDataHeader(data)
-    this.buttonHandler = buttonHandler
+    this.filterHandler = filterHandler
     this.resetHandler = resetHandler
     this.events()
   }
@@ -53,7 +53,7 @@ export class Header {
       }
 
       if (clicked.classList.contains('main-header__button')) {
-        this.buttonHandler(clicked.textContent)
+        this.filterHandler(clicked.textContent)
       }
     })
   }

@@ -61,7 +61,7 @@ export default [
     year: '2000',
     starts: 'Guy Pearce, Carrie-Anne Moss, Joe Pantoliano',
     category: 'Thriller',
-    image: 'http://www.mubis.es/media/covers/1945/3572/memento-portada-l_cover.jpg'
+    image: 'https://s-media-cache-ak0.pinimg.com/originals/3c/e8/e6/3ce8e64746ec83dc901bbe6e5bf60be8.jpg'
   },
   {
     title: 'Dunkirk',

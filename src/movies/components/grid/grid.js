@@ -2,10 +2,10 @@ export class Grid {
   constructor (node, movies) {
     this.node = document.querySelector(node)
     this.setTemplateMovies()
-    this.containerList = document.querySelector('.movies-container__list')
+    this.containerList = this.node.querySelector('.movies-container__list')
     this.setMovies(movies)
     this.setClass()
-    this.list = document.querySelectorAll('.movies-item')
+    this.list = this.node.querySelectorAll('.movies-item')
     this.i = 0
     this.eventTarget()
   }
